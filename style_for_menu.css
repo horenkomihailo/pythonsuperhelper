@@ -5,22 +5,6 @@ body {
 	background-image: url(back.png);
 }
 
-#register1, #log_in1 {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.2px;
-    color: #000;
-    margin-top: 30px;
-    margin-bottom: -30px;
-    margin-right: 30px;
-    font-size: 15px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-}
-
 h1 {
 	margin: 0;
 	text-transform: uppercase;
@@ -41,4 +25,28 @@ form {
 	margin: 10px;
 	padding: 5px;
 	font-size: 15pt;
+}
+
+nav {
+    margin: 27 auto 0
+    position: relative;
+    weight: 590px;
+    height: 50px;
+    background-color: #535d67;
+    border-radius: 1px solid black;
+    border-shadow: 1px 2px 4px #000;
+}
+
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-align: centre;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointed;
 }
