@@ -18,3 +18,10 @@ margin-top: 50px;
     flex-wrap: wrap;
     justify-content: right;
 }
+
+.form {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 740px;
+}
