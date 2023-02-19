@@ -4,13 +4,14 @@ body {
 	margin: 0;
 	background-image: url(back.png);
 }
+
 h1 {
-	cursor: help;
 	margin: 0;
 	text-transform: uppercase;
 	padding-bottom: 5px;
 	border-bottom: 3px solid #5200a5;
 }
+
 form {
 	margin: 0 auto;
 	background: rgba(0,186,255,0.77);
@@ -19,14 +20,17 @@ form {
 	padding: 20px;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
 }
+
 .group {
 	margin: 10px;
 	padding: 5px;
 }
+
 label {
 	padding-left: 10px;
 	text-transform: uppercase;
 }
+
 input {
 	margin-top: 10px;
 	height: 40px;
@@ -37,11 +41,13 @@ input {
 	font-size: 18px;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
 }
+
 input:focus {
 	border: 2px solid #6c00ff;
 	transform: translateX(15px);
 	width: 385px;
 }
+
 button {
 	cursor: pointer;
 	padding: 10px 30px;
@@ -53,6 +59,7 @@ button {
 	font-size: 15px;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
 }
+
 button:hover {
 	opacity: .80;
 	font-weight: bold;

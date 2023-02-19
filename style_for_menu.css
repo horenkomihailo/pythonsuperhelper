@@ -1,6 +1,8 @@
-#title1 {
-color: red;
-margin-top: 50px;
+body {
+	font-family: Tahoma;
+	background: #ff6c00;
+	margin: 0;
+	background-image: url(back.png);
 }
 
 #register1, #log_in1 {
@@ -19,9 +21,23 @@ margin-top: 50px;
     justify-content: right;
 }
 
-.form {
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 180px;
-    left: 740px;
+h1 {
+	margin: 0;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #5200a5;
+}
+
+form {
+	margin: 0 auto;
+	background: rgba(0,186,255,0.77);
+	width: 900px;
+	height: 4000px;
+	padding: 20px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+
+.group {
+	margin: 10px;
+	padding: 5px;
 }
