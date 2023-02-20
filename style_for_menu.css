@@ -43,18 +43,18 @@ nav:before{
     z-index:-1;
 }
 
-ul{
+.menu{
     margin:0;
     padding:0;
     list-style:none;
     height:50px;
 }
 
-ul li{
-    float:left;
+.menu li{
+    float:right;
 }
 
-ul li a{
+.menu li a{
     color:#fff;
     display:block;
     height:50px;
@@ -64,6 +64,7 @@ ul li a{
     line-height:50px;
 }
 
-ul li a:hover{
-    background:#d34d43
+.menu li a:hover{
+    background:#d34d43;
+    transition: 0.7s ease;
 }
