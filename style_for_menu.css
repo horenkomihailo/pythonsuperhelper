@@ -1,85 +1,151 @@
 body {
-	font-family: Tahoma;
-	background: #ff6c00;
-	margin: 0;
-	background-image: url(back.png);
+  font-family: Arial, sans-serif;
+  background: #f5f5f5 url("https://www.example.com/background.jpg") no-repeat
+    center center fixed;
+  background-size: cover;
+  margin: 0;
 }
 
 h1 {
-	margin: 0;
-	text-transform: uppercase;
-	padding-bottom: 5px;
-	border-bottom: 3px solid #5200a5;
-}
-
-form {
-	margin: 0 auto;
-	background: rgba(0,186,255,0.77);
-	width: 900px;
-	height: 4000px;
-	padding: 20px;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
-}
-
-.group {
-	margin: 10px;
-	padding: 5px;
-	font-size: 15pt;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  padding: 20px 0;
+  border-bottom: 3px solid #5200a5;
 }
 
 h2 {
-	font-size: 21pt;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  padding: 20px 0;
 }
 
-.group #Important{
-    border: 2px solid rgba(0,0,0,0.82);
-    border-radius: 20%;
-    margin: 0 auto;
-	background: #F78181;
-	width: 450px;
-	height: 130px;
-	padding: 20px;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+.description {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  padding: 0;
+  padding-right: 80px;
 }
 
-nav{
-    width:960;
-    margin: 0 auto;
+form {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-nav:before{
-    content:'';
-    display:block;
-    height:50px;
-    width:100%;
-    background:#000;
-    position:absolute;
-    left:0;
-    z-index:-1;
+.group {
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.2em;
 }
 
-.menu{
-    margin:0;
-    padding:0;
-    list-style:none;
-    height:50px;
+.main {
+  font-size: 2.5em; /* increase the font size */
+  text-align: center; /* center the title */
+  margin: 30px 0; /* add some margin on top and bottom */
+  text-transform: uppercase; /* convert the text to uppercase */
+  letter-spacing: 2px; /* increase the letter spacing */
 }
 
-.menu li{
-    float:right;
+.warning {
+  border: 3px solid #f44336; /* red border */
+  background-color: #ffebee; /* light red background */
+  border-radius: 5px; /* rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* shadow effect */
+  text-align: center; /* center the warning box */
+  margin: 20px auto; /* add margin and center the warning box horizontally */
+  max-width: 500px; /* limit the width of the warning box */
+  padding: 20px 0;
 }
 
-.menu li a{
-    color:#fff;
-    display:block;
-    height:50px;
-    padding:0 30px;
-    text-transform:uppercase;
-    text-decoration:none;
-    line-height:50px;
+.group {
+  margin: 20px auto; /* add margin and center the group horizontally */
+  max-width: 600px; /* limit the width of the group */
 }
 
-.menu li a:hover{
-    background:#d34d43;
-    transition: 0.7s ease;
+ul {
+  list-style-type: none; /* remove the bullet points */
+  padding: 0; /* remove the default padding */
+}
+
+li {
+  font-size: 1.2em; /* increase the font size of the list items */
+  margin-bottom: 10px; /* add some space between the list items */
+  border-bottom: 1px solid #ddd; /* add a gray border at the bottom of each list item */
+  padding-bottom: 10px; /* add some space between the text and the border */
+}
+
+li:last-child {
+  border-bottom: none; /* remove the border from the last list item */
+}
+
+li::before {
+  content: "▹ "; /* add a bullet symbol before each list item */
+  color: #f44336; /* use a red color for the bullet symbol */
+  font-size: 1.5em; /* increase the font size of the bullet symbol */
+  margin-right: 10px; /* add some space between the bullet symbol and the text */
+}
+
+.warning_text {
+  font-size: 1em;
+  font-weight: bold;
+  color: #f44336; /* red text color */
+  margin-top: 0; /* remove top margin for the warning text */
+  margin-bottom: 20px; /* add bottom margin to separate the warning text from the content below */
+}
+
+.group #Important {
+  border: 2px solid #f00;
+  border-radius: 20px;
+  margin: 0 auto;
+  background: #feecec;
+  width: 450px;
+  height: 130px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background: #333;
+  color: #fff;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 1.2em;
+  padding: 0 20px;
+}
+
+.menu li a:hover {
+  background: #d34d43;
+  transition: 0.3s ease;
 }
