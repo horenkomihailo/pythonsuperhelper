@@ -27,7 +27,11 @@ form {
 	font-size: 15pt;
 }
 
-.group p{
+h2 {
+	font-size: 21pt;
+}
+
+.group #Important{
     border: 2px solid rgba(0,0,0,0.82);
     border-radius: 20%;
     margin: 0 auto;
